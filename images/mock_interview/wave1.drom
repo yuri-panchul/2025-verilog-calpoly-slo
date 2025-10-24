@@ -1,0 +1,37 @@
+{signal: [
+  {name: 'clk'      , wave: 'p..Pp....Pp......'},
+  {name: 'vld'      , wave: '0.10....1........'},
+  {name: 'rdy'      , wave: '0.101......0..1..'},
+  {name: 'dat'      , wave: 'x.3x....4567...89'},
+
+
+  {name: 'clk'      , wave: 'p................'},
+
+  {name: 'a'        , wave: '0.10.............'},
+  {name: 'b'        , wave: '0.1.0............'},
+
+  {name: 'a'        , wave: '0.1.0............'},
+  {name: 'b'        , wave: '0.1...0..........'},
+
+  {name: 'a'        , wave: '0.1010...........'},
+  {name: 'b'        , wave: '0.1...0..........'},
+
+  {name: 'a'        , wave: '0.1..010..........'},
+  {name: 'b'        , wave: '0.1.......0.......'},
+  
+  {name: 'clk'      , wave: 'p................'},
+  {name: 'arg_vld'  , wave: '0101....01.0.....'},
+  {name: 'a'        , wave: 'x3x45678x95x.....', data: "a1 a2 a3 a4 a5"},
+  {name: 'b'        , wave: 'x3x45678x95x.....', data: "b1 b2 b3 b4 b5"},
+  {name: 'c'        , wave: 'x3x45678x95x.....', data: "c1 c2 c3 c4 c5"},
+  {name: 'res_vld'  , wave: '0.....101....01.0'},
+  {name: 'b²-4*a*c' , wave: '....x.3x45678x95x', data: "D1 D2 D3 D4 D5"},
+  {name: 'clk'      , wave: 'p................'},
+  {name: 'arg_vld'  , wave: '010....10....10..'},
+  {name: 'a'        , wave: 'x3x....4x....5x..', data: "a1 a2 a3"},
+  {name: 'b'        , wave: 'x3x....4x....5x..', data: "b1 b2 b3"},
+  {name: 'c'        , wave: 'x3x....4x....5x..', data: "c1 c2 c3"},
+  {name: 'res_vld'  , wave: '0.....10....10...'},
+  {name: 'b²-4*a*c' , wave: '....x.3x....4x...', data: "D1 D2"},
+  
+]}
